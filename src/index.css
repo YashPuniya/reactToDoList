@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+button{
+    margin-left: 3px;
+}
+.todoList{
+    text-align: center;
+    margin-top: 100px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    background-color: rgba(60, 57, 57, 0.95);
+    margin-top: 10px;
+}
+.text{
+    flex: 1;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.delete-button{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.delete-button:hover{
+    background-color: rgb(201, 7, 7);
+}
+.add-button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(7, 172, 15);
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: rgb(10, 134, 1);
+}
+input{
+    font-size: 16px;
+    padding: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+.up-button,.down-button{
+    background-color: rgba(45, 126, 246, 0.927);
+    height: 29px;
+    transition: 00.1s;
+}
+.up-button:hover,.down-button:hover{
+    background-color: rgba(0, 99, 247, 0.927);
+}
+.down-button{
+    margin-right: 3px;
+}
+.input-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
